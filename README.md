@@ -167,23 +167,25 @@ The monthly and weekly visualizations also provide a way to identify periods of 
 
 ---
 
-##  Project Workflow
 
-```text
-Raw Amazon Sales Data
-        ↓
-Data Cleaning
-        ↓
-Power Query Transformation
-        ↓
-Data Modeling
-        ↓
-DAX Measures
-        ↓
-Dashboard Development
-        ↓
-Data Visualization
-        ↓
-Business Insights
+## Dashboard Preview
 
-![Amazon Sales Dashboard](images/amazon-sales-dashboard.png)
+Add your Power BI dashboard screenshot here:
+
+![Power BI Dashboard](image/)
+
+
+## Project Summary — Amazon Products Sales Analysis
+
+Amazon Products Sales Analysis is an interactive Power BI dashboard designed to analyze product sales, customer reviews, product categories, and sales trends. The project uses Power Query for data cleaning and transformation, DAX for KPI calculations, and Power BI for interactive visualization. It provides insights into YTD/QTD sales, products sold, reviews, monthly and weekly sales trends, category-wise performance, and top-performing products.
+
+Tech Stack: Power BI | Power Query | DAX | Excel/CSV | Data Analysis | Data Visualization
+
+Key Highlights: KPI Dashboard • Sales Trend Analysis • Category Analysis • Top Products • Review Analysis • Interactive Filters • Business Insights
+
+
+👨‍💻 Author
+
+Hari Prasad Ola
+Gmail:- hrprsdola@gmail.com
+Data Analytics | Power BI | SQL | Python
