@@ -135,3 +135,6 @@ How does quarterly performance compare with YTD performance?
 How does product-category performance change when filters are applied?
  Project Summary
 Amazon Products Sales Analysis Dashboard is an interactive Power BI business intelligence project that analyzes Amazon product sales, category performance, weekly/monthly trends, product sales, and customer reviews. The dashboard uses KPIs, interactive slicers, trend charts, category analysis, and top-product visualizations to provide a comprehensive view of Amazon sales performance.
+
+###6  screenshoots /demo
+Example ! Dashboard Preview ( https://github.com/HARIPRASADOLA/sales-analysis-amazon-products-Dashboard/blob/main/sale%20amazon%201.png)
