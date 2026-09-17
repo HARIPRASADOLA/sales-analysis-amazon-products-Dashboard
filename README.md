@@ -54,7 +54,7 @@ Example:
 Source: Kaggle – Amazon Products Sales Dataset
 Format: CSV
 5. Features / Highlights
-📊 KPI Overview
+ KPI Overview
 
 The dashboard provides four major KPIs:
 
@@ -65,7 +65,7 @@ YTD Reviews: 19.42M
 
 These KPIs provide a quick overview of overall business performance.
 
-📈 Sales by Month
+ Sales by Month
 
 A monthly trend visualization shows how sales change throughout the year.
 
@@ -75,11 +75,11 @@ Monthly sales growth
 Low-performing months
 High-performing months
 Seasonal sales patterns
-📅 Sales by Week
+ Sales by Week
 
 The weekly sales chart provides a more granular view of sales performance and helps identify fluctuations throughout the year.
 
-🛍️ Sales by Product Category
+ Sales by Product Category
 
 The dashboard compares categories using:
 
@@ -98,19 +98,19 @@ Toys
 
 This makes it easier to understand each category's contribution to total sales.
 
-🏆 Top 6 Products by YTD Sales
+ Top 6 Products by YTD Sales
 
 A dedicated visualization identifies the top six products based on YTD sales.
 
 This allows users to quickly identify products generating the highest sales revenue.
 
-⭐ Top 6 Products by YTD Reviews
+ Top 6 Products by YTD Reviews
 
 The dashboard also highlights the six products with the highest number of customer reviews.
 
 This provides an additional perspective on customer engagement and product popularity.
 
-🎛️ Interactive Filters
+ Interactive Filters
 
 Users can interact with the dashboard using slicers for:
 
@@ -133,26 +133,5 @@ How do sales change from month to month?
 Which weeks demonstrate significant sales activity?
 How does quarterly performance compare with YTD performance?
 How does product-category performance change when filters are applied?
-Project Structure
-Amazon-Products-Sales-Analysis/
-│
-├── README.md
-│
-├── Dashboard/
-│   └── Amazon_Products_Sales_Dashboard.pbix
-│
-├── Dataset/
-│   └── amazon_products_sales.csv
-│
-├── Images/
-│   └── amazon-sales-dashboard.png
-│
-└── Documentation/
-    └── Project_Insights.pdf
-Skills Demonstrated
-
-Power BI • DAX • Power Query • Data Cleaning • Data Visualization • Data Analysis • Data Modeling • KPI Development • Business Intelligence • Dashboard Design • Interactive Reporting
-
-GitHub Project Summary
-
+ Project Summary
 Amazon Products Sales Analysis Dashboard is an interactive Power BI business intelligence project that analyzes Amazon product sales, category performance, weekly/monthly trends, product sales, and customer reviews. The dashboard uses KPIs, interactive slicers, trend charts, category analysis, and top-product visualizations to provide a comprehensive view of Amazon sales performance.
