@@ -1,140 +1,189 @@
-# sales-analysis-amazon-products-Dashboard
-Amazon Products Sales Analysis Dashboard | Power BI
+# Amazon Products Sales Analysis
+## Project Title
+**Amazon Products Sales Analysis Dashboard**
+## Headline
+> An interactive Power BI dashboard for analyzing Amazon product sales, reviews, product categories, and sales trends.
 
-An interactive Power BI dashboard designed to analyze Amazon product sales, product performance, customer reviews, and sales trends across categories and time periods.
-2. Short Description / Purpose
+---
+## Short Description
+This project is an interactive **Power BI Sales Analysis Dashboard** created to understand the performance of Amazon products.
+The dashboard provides a clear view of **YTD Sales, QTD Sales, Products Sold, Customer Reviews, product categories, monthly sales, weekly sales, and top-performing products**.
+The goal is to convert raw sales data into meaningful business insights through interactive visualizations and KPIs.
 
-This project analyzes Amazon product sales data to understand overall sales performance, product-category contribution, customer reviews, and monthly/weekly sales trends.
+---
+##  Purpose
 
-The dashboard provides a management-friendly view of key business KPIs and helps identify top-performing product categories and individual products based on YTD sales and customer reviews.
+The main purpose of this project is to analyze Amazon product sales and identify patterns in product and category performance.
 
-Key Business Objectives
-Track YTD and QTD sales performance
-Analyze products sold and customer reviews
-Compare sales performance across product categories
-Identify top products by YTD sales
-Identify products receiving the highest number of reviews
-Analyze monthly and weekly sales trends
-Enable interactive filtering by Product Category and Qtr
-Technology	Usage
-Power BI:-	Dashboard development & visualization
-Power Query:-	Data cleaning and transformation
-DAX	KPI :-calculations and business measures
-Microsoft Excel / CSV	:-Data storage and preprocessing
-GitHub	Project documentation and version control
-Power BI Concepts Used
-Data Cleaning & Transformation
-Data Modeling
-DAX Measures
-KPI Cards
-Slicers
-Conditional Formatting
-Bar Charts
-Line Charts
-Column Charts
-Tables & Matrix
-Interactive Dashboard Design
-4. Data Source
+The dashboard helps answer questions such as:
 
-Dataset: Amazon Products Sales Dataset
+- Which product categories generate the most sales?
+- Which products have the highest YTD sales?
+- Which products receive the most reviews?
+- How do sales change throughout the year?
+- How are weekly sales distributed?
+- Which categories contribute the largest percentage of total sales?
 
-The dataset contains Amazon product-level information used to analyze:
+---
+##  Tech Stack
 
-Product categories
-Product descriptions
-Sales/price information
-Monthly and weekly sales activity
-Product reviews
-Product performance
+- **Power BI Desktop**
+- **Power Query**
+- **DAX**
+- **Microsoft Excel / CSV**
+- **Data Cleaning**
+- **Data Transformation**
+- **Data Modeling**
+- **Data Visualization**
 
-Data Source Note: If your original dataset was downloaded from Kaggle or another platform, add the exact dataset URL here to make the repository fully reproducible.
+---
+##  Data Source
 
-Example:
+The project uses an **Amazon Products sales dataset** containing product-level information related to sales, product categories, prices, quantities, and customer reviews.
 
-Source: Kaggle – Amazon Products Sales Dataset
-Format: CSV
-5. Features / Highlights
- KPI Overview
+### Main data fields used
+
+| Field | Description |
+|---|---|
+| Product Category | Category of the product |
+| Product Description | Name/description of the product |
+| Price | Product price |
+| Sales | Sales value |
+| Quantity | Number of products sold |
+| Reviews | Number of customer reviews |
+| Month | Sales month |
+| Week | Sales week |
+
+---
+
+##  Dashboard Features
+
+### 1. KPI Cards
 
 The dashboard provides four major KPIs:
 
-YTD Sales: $2.18M
-QTD Sales: $811.09K
-YTD Products Sold: 27.75K
-YTD Reviews: 19.42M
+- **YTD Sales:** `$2.18M`
+- **QTD Sales:** `$811.09K`
+- **YTD Products Sold:** `27.75K`
+- **YTD Reviews:** `19.42M`
 
-These KPIs provide a quick overview of overall business performance.
+These KPIs provide a quick overview of the overall business performance.
 
- Sales by Month
+---
+### 2. Sales by Month
 
-A monthly trend visualization shows how sales change throughout the year.
+The monthly sales visualization shows how sales changed from **January to December**.
 
 It helps identify:
 
-Monthly sales growth
-Low-performing months
-High-performing months
-Seasonal sales patterns
- Sales by Week
+- Monthly sales trends
+- High-performing months
+- Low-performing months
+- Seasonal patterns
 
-The weekly sales chart provides a more granular view of sales performance and helps identify fluctuations throughout the year.
+---
 
- Sales by Product Category
+### 3. Sales by Week
 
-The dashboard compares categories using:
+The weekly sales chart shows the distribution of sales throughout the year.
 
-YTD Sales
-QTD Sales
-% of YTD Sales
+This allows the business to identify:
 
-Example categories included:
+- Weekly sales patterns
+- High-sales periods
+- Low-sales periods
+- Changes in customer purchasing activity
 
-Men Shoes
-Camera
-Men Clothes
-Car Accessories
-Mobile & Accessories
-Toys
+---
 
-This makes it easier to understand each category's contribution to total sales.
+### 4. Sales by Product Category
 
- Top 6 Products by YTD Sales
+The category table compares:
 
-A dedicated visualization identifies the top six products based on YTD sales.
+- YTD Sales
+- QTD Sales
+- Percentage of YTD Sales
 
-This allows users to quickly identify products generating the highest sales revenue.
+Example categories include:
 
- Top 6 Products by YTD Reviews
+| Product Category | YTD Sales | QTD Sales |
+|---|---:|---:|
+| Men Shoes | $940,266 | $325,090 |
+| Camera | $492,521 | $188,381 |
+| Men Clothes | $357,644 | $136,700 |
+| Car Accessories | $237,290 | $91,359 |
+| Mobile & Accessories | $39,178 | $39,178 |
+| Toys | $110,839 | $30,382 |
 
-The dashboard also highlights the six products with the highest number of customer reviews.
+---
 
-This provides an additional perspective on customer engagement and product popularity.
+### 5. Top 6 Products by YTD Sales
 
- Interactive Filters
+A horizontal bar chart displays the **top six products based on YTD sales**.
 
-Users can interact with the dashboard using slicers for:
+This helps identify products that contribute significantly to overall revenue.
 
-Product Category
-Quarter (Qtr)
+---
 
-The visualizations dynamically update based on the selected filters.
+### 6. Top 6 Products by YTD Reviews
 
-Dashboard Preview
+The dashboard also displays the **top six products based on customer reviews**.
 
-Key Insights
+This provides an additional view of product engagement and customer activity.
 
-The dashboard can be used to answer questions such as:
+---
 
-What is the current YTD sales performance?
-Which product category contributes the most to sales?
-Which products generate the highest YTD sales?
-Which products have the highest number of customer reviews?
-How do sales change from month to month?
-Which weeks demonstrate significant sales activity?
-How does quarterly performance compare with YTD performance?
-How does product-category performance change when filters are applied?
- Project Summary
-Amazon Products Sales Analysis Dashboard is an interactive Power BI business intelligence project that analyzes Amazon product sales, category performance, weekly/monthly trends, product sales, and customer reviews. The dashboard uses KPIs, interactive slicers, trend charts, category analysis, and top-product visualizations to provide a comprehensive view of Amazon sales performance.
+### 7 Interactive Filters
 
-###6  screenshoots /demo
-Example ! Dashboard Preview ( https://github.com/HARIPRASADOLA/sales-analysis-amazon-products-Dashboard/blob/main/sale%20amazon%201.png)
+The dashboard contains filters for:
+
+- Product Category
+- Quantity
+
+Users can interact with these filters to analyze different segments of the dataset.
+
+---
+
+##  Key Highlights
+
+- Created an interactive **Amazon sales dashboard using Power BI**.
+- Designed KPI cards for quick business performance tracking.
+- Analyzed **monthly and weekly sales trends**.
+- Compared sales performance across product categories.
+- Identified top products based on **YTD sales**.
+- Identified products with the highest number of **customer reviews**.
+- Added interactive filtering for better data exploration.
+- Used data visualization to convert raw sales data into actionable insights.
+
+---
+
+##  Business Insights
+
+The dashboard shows that **Men Shoes** contribute the largest share of YTD sales among the displayed product categories, followed by **Camera** and **Men Clothes**.
+
+The monthly and weekly visualizations also provide a way to identify periods of higher sales activity and understand sales fluctuations throughout the year.
+
+> The insights are based on the dataset used for this dashboard and should not be interpreted as current Amazon marketplace statistics.
+
+---
+
+##  Project Workflow
+
+```text
+Raw Amazon Sales Data
+        ↓
+Data Cleaning
+        ↓
+Power Query Transformation
+        ↓
+Data Modeling
+        ↓
+DAX Measures
+        ↓
+Dashboard Development
+        ↓
+Data Visualization
+        ↓
+Business Insights
+
+![Amazon Sales Dashboard](images/amazon-sales-dashboard.png)
