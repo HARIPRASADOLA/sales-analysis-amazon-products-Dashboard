@@ -172,7 +172,7 @@ The monthly and weekly visualizations also provide a way to identify periods of 
 
 Add your Power BI dashboard screenshot here:
 
-![Power BI Dashboard](image/)
+![Power BI Dashboard](https://github.com/HARIPRASADOLA/sales-analysis-amazon-products-Dashboard/blob/main/sale%20amazon%201.png)
 
 
 ## Project Summary — Amazon Products Sales Analysis
